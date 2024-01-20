@@ -7,8 +7,7 @@ import {AutoERC20} from "../src/AutoERC20.sol";
 
 contract DeployAutoERC20 is Script {
     uint256 public constant INITIAL_SUPPLY = 1000000 ether; // 1M with 18 decimals
-    uint256 public DEFAULT_ANVIL_PRIVATE_KEY =
-        0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80;
+    uint256 public DEFAULT_ANVIL_PRIVATE_KEY = 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80;
     uint256 public deployerKey;
 
     function run() external returns (AutoERC20) {
